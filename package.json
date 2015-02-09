@@ -1,0 +1,32 @@
+{
+  "name": "dummy",
+  "version": "1.0.0",
+  "description": "Dummy project - used as a starting point for new libraries —",
+  "main": "./src/index.js",
+  "directories": {
+    "lib": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --require should --reporter mocha-better-spec-reporter --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cheminfo-js/dummy.git"
+  },
+  "keywords": [
+    "dummy",
+    "project"
+  ],
+  "author": "Michaël Zasso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cheminfo-js/dummy/issues"
+  },
+  "homepage": "https://github.com/cheminfo-js/dummy",
+  "devDependencies": {
+    "mocha": "latest",
+    "mocha-better-spec-reporter": "latest",
+    "should": "latest"
+  }
+}

@@ -3,7 +3,7 @@
   [![NPM version][npm-image]][npm-url]
   [![build status][travis-image]][travis-url]
 
-Dummy project - used as a starting point for new libraries
+Dummy project - used as a starting point for new libraries 
 
 ## Test
 

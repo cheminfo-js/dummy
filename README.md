@@ -5,12 +5,19 @@
 
 Dummy project - used as a starting point for new libraries
 
-## Test
+## Development
 
-```js
-$ npm install
-$ npm test
-```
+### Install dev dependencies
+
+`npm install`
+
+### Execute test suite
+
+`npm test`
+
+### Build dist files
+
+`npm run build`
 
 ## License
 

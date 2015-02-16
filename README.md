@@ -7,6 +7,19 @@
 
 Dummy project - used as a starting point for new libraries
 
+## Configuration
+
+ * Copy all files of this project
+ * Edit :
+  * package.json
+  * bower.json
+  * README.md
+ * Put code in `src`, export from `src/index.js`
+ * Put tests in `test`, use [mocha](http://mochajs.org/) and [should](http://shouldjs.github.io/)
+ * Publish to npm `npm publish` (must be done for each release)
+ * Publish to bower `bower publish` (only once)
+ * Activate the hook on [travis](https://travis-ci.org/profile) (first test suite will be executed on next commit)
+
 ## Development
 
 ### Install dev dependencies

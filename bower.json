@@ -1,25 +1,25 @@
 {
   "name": "dummy",
   "version": "1.0.0",
+  "description": "Dummy project - used as a starting point for new libraries",
+  "keywords": [
+    "dummy",
+    "project"
+  ],
   "main": [
     "dist/dummy.js",
     "dist/dummy.min.js"
   ],
-  "homepage": "https://github.com/cheminfo-js/dummy",
   "authors": [
     "Michaël Zasso"
   ],
-  "description": "Dummy project - used as a starting point for new libraries",
+  "homepage": "https://github.com/cheminfo-js/dummy",
+  "license": "MIT",
   "moduleType": [
     "amd",
     "globals",
     "node"
   ],
-  "keywords": [
-    "dummy",
-    "project"
-  ],
-  "license": "MIT",
   "ignore": [
     "/*",
     "!dist/*"

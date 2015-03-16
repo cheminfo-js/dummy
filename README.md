@@ -7,32 +7,38 @@
 
 Dummy project - used as a starting point for new libraries
 
-## Configuration
+## Init project
 
- * Copy all files of this project
- * Edit :
-  * package.json
-  * bower.json
-  * README.md
- * Put code in `src`, export from `src/index.js`
- * Put tests in `test`, use [mocha](http://mochajs.org/) and [should](http://shouldjs.github.io/)
- * Publish to npm `npm publish` (must be done for each release)
- * Publish to bower `bower publish` (only once)
- * Activate the hook on [travis](https://travis-ci.org/profile) (first test suite will be executed on next commit)
+* Download [latest zip](https://github.com/cheminfo-js/dummy/archive/master.zip)
+* Extract __entire__ folder (including .gitignore, .npmignore and .travis.myl files) to a new location
+* Edit :
+ * package.json
+ * bower.json
+ * README.md (links at the end)
+* `git init`
+* `git add --all`
+* Create a [new repository](https://github.com/organizations/cheminfo-js/repositories/new) on GitHub. (__DO NOT INITIALIZE IT__)
+* Push the initial code to GitHub
 
-## Development
+## Configure release hooks
 
-### Install dev dependencies
+* [Travis CI](https://travis-ci.org/profile)
+* [lactame](http://direct.lactame.com/release/)
 
-`npm install`
+## First release
 
-### Execute test suite
+* Build using the lactame interface
+* On your computer:
+ * git pull
+ * `npm publish`
+ * `npm author add cheminfo-bot dummy`
+ * if you want it on Bower : `bower register project-name git://github.com/cheminfo-js/dummy`
 
-`npm test`
+## Next releases
 
-### Build dist files
-
-`npm run build`
+* Build using the lactame interface
+* Publish on NPM using the same interface (NPM button)
+* nothing needed for Bower
 
 ## License
 

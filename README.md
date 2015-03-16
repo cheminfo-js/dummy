@@ -29,7 +29,7 @@ Dummy project - used as a starting point for new libraries
 
 * Build using the lactame interface
 * On your computer:
- * git pull
+ * `git pull` (get code from fresh release, especially version number)
  * `npm publish`
  * `npm author add cheminfo-bot dummy`
  * if you want it on Bower : `bower register project-name git://github.com/cheminfo-js/dummy`

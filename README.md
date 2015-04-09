@@ -20,6 +20,16 @@ Dummy project - used as a starting point for new libraries
 * Create a [new repository](https://github.com/organizations/cheminfo-js/repositories/new) on GitHub. (__DO NOT INITIALIZE IT__)
 * Push the initial code to GitHub (the two commands to use are provided at the end of the new repository wizard)
 
+## Install a new dependency
+
+You may go on http://www.npmjs.org and look for an interesting project
+
+After you will enter
+
+`npm install theNameOfTheProject --save` This will add this dependency in package.json
+
+You can then load it in the project with a usual `require('theNameOfTheProject')`
+
 ## Configure release hooks
 
 * [Travis CI](https://travis-ci.org/profile)

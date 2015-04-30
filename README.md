@@ -17,6 +17,7 @@ Dummy project - used as a starting point for new libraries
  * README.md (links at the end)
 * `git init`
 * `git add --all`
+* `git commit -m 'Initial commit'`
 * Create a [new repository](https://github.com/organizations/cheminfo-js/repositories/new) on GitHub. (__DO NOT INITIALIZE IT__)
 * Push the initial code to GitHub (the two commands to use are provided at the end of the new repository wizard)
 

@@ -1,9 +1,9 @@
 'use strict';
 
-var dummy = require('..');
+var lib = require('..');
 
-describe('dummy test', function () {
-    it('should return true', function () {
-        dummy().should.be.true;
+describe('test', function () {
+    it('should be tested', function () {
+        throw new Error('no test!');
     });
 });

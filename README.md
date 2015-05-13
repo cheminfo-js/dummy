@@ -10,7 +10,7 @@ Dummy project - used as a starting point for new libraries
 ## Init project
 
 * Download [latest zip](https://github.com/cheminfo-js/dummy/archive/master.zip)
-* Extract __entire__ folder (including .gitignore, .npmignore and .travis.myl files) to a new location
+* Extract __entire__ folder (including .gitignore, .npmignore and .travis.yml files) to a new location
 * Edit :
  * package.json
  * bower.json

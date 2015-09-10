@@ -13,7 +13,6 @@ Dummy project - used as a starting point for new libraries
 * Extract __entire__ folder (including .gitignore, .npmignore and .travis.yml files) to a new location
 * Edit :
  * package.json
- * bower.json
  * README.md (links at the end)
 * `git init`
 * `git add --all`
@@ -43,13 +42,11 @@ You can then load it in the project with a usual `require('theNameOfTheProject')
  * `git pull` (get code from fresh release, especially version number)
  * `npm publish`
  * `npm author add cheminfo-bot dummy`
- * if you want it on Bower : `bower register dummy git://github.com/cheminfo-js/dummy`
 
 ## Next releases
 
 * Build using the lactame interface
 * Publish on NPM using the same interface (NPM button)
-* nothing needed for Bower
 
 ## License
 

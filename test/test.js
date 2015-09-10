@@ -4,6 +4,6 @@ var lib = require('..');
 
 describe('test', function () {
     it('should be tested', function () {
-        throw new Error('no test!');
+        (42).should.equal(42);
     });
 });

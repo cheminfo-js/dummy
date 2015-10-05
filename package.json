@@ -14,10 +14,6 @@
   "homepage": "https://github.com/cheminfo-js/dummy",
   "license": "MIT",
   "main": "./src/index.js",
-  "directories": {
-    "lib": "src",
-    "test": "test"
-  },
   "scripts": {
     "test": "mocha --require should --reporter mocha-better-spec-reporter --recursive",
     "build": "cheminfo build"
